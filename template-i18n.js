@@ -7,12 +7,6 @@
   };
 
   const copy = {
-    "Limited-time member offer · Annual plans save up to 56% · Top-up credits 20% off · 10+ top models included": {
-      es: "Oferta limitada para miembros · Los planes anuales ahorran hasta un 56 % · 20 % de descuento al recargar créditos · Más de 10 modelos incluidos",
-      "zh-CN": "限时会员优惠 · 年付方案最高立省 56% · 充值积分享 8 折 · 10+ 顶级模型已包含",
-      "zh-TW": "限時會員優惠 · 年付方案最高省下 56% · 儲值積分享 8 折 · 10+ 頂級模型已包含",
-    },
-    "View plans": { es: "Ver planes", "zh-CN": "查看方案", "zh-TW": "查看方案" },
     "【页面标题占位】": { es: "【Título de la página】", "zh-CN": "【页面标题】", "zh-TW": "【頁面標題】" },
     "【主标题第一行】": { es: "【Primera línea del título】", "zh-CN": "【主标题第一行】", "zh-TW": "【主標題第一行】" },
     "【主标题第二行】": { es: "【Segunda línea del título】", "zh-CN": "【主标题第二行】", "zh-TW": "【主標題第二行】" },

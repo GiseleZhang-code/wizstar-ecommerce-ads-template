@@ -7,17 +7,6 @@ button,input,textarea,select{font-family:"PingFang SC","PingFang TC",-apple-syst
 button,input,textarea,select{font:inherit}
 button{border:0}
 
-.promotion-bar{width:100%;height:36px;position:relative;z-index:11;display:flex;align-items:center;gap:14px;overflow:hidden;padding:0 8px 0 0;background:linear-gradient(100deg,#692dd4,#7839e8 55%,#8248ec);box-shadow:inset 0 -1px 0 rgba(255,255,255,.14)}
-.promotion-loop{min-width:0;flex:1;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
-.promotion-loop-track{width:max-content;display:flex;align-items:center;gap:58px;white-space:nowrap;animation:promotion-loop-flow 30s linear infinite}
-.promotion-loop-track span{color:#f4f8ff;font-size:12px;font-weight:500;letter-spacing:.01em}
-.promotion-loop-track span::before{content:"✦";margin-right:14px;color:#65e4ff;text-shadow:0 0 12px rgba(101,228,255,.7)}
-.promotion-cta{min-height:22px;height:auto;flex:0 1 auto;display:inline-flex;align-items:center;gap:5px;margin-right:5px;padding:4px 9px;border:1px solid rgba(255,255,255,.32);border-radius:999px;background:rgba(255,255,255,.12);color:#fff;font-size:9px;font-weight:700;line-height:1.2;text-align:center;white-space:normal;overflow-wrap:anywhere;text-decoration:none;transition:background .2s ease,border-color .2s ease,transform .2s ease}
-.promotion-cta:hover{border-color:rgba(255,255,255,.6);background:rgba(255,255,255,.22);transform:translateY(-1px)}
-@keyframes promotion-loop-flow{to{transform:translateX(calc(-25% - 14.5px))}}
-@media(max-width:680px){.promotion-bar{height:34px;padding-left:3px}.promotion-loop-track{gap:42px;animation-duration:24s}.promotion-loop-track span{font-size:10px}.promotion-cta{height:20px;padding:0 7px;font-size:8px}.promotion-cta span{display:none}}
-@media(prefers-reduced-motion:reduce){.promotion-loop-track{animation:none}}
-
 /* Template media rule: every video fills its own responsive frame without letterboxing. */
 video{display:block;width:100%;height:100%;max-width:100%;object-fit:cover;object-position:center;background:#050609}
 
